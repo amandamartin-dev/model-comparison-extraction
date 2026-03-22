@@ -79,14 +79,18 @@ def extract_json_from_response(text: str) -> dict | None:
     text = strip_reasoning_preamble(text)
 
     try:
-        return json.loads(text)
+        parsed = json.loads(text)
+        if isinstance(parsed, dict):
+            return parsed
     except json.JSONDecodeError:
         pass
 
     cleaned = re.sub(r"```(?:json)?\s*", "", text)
     cleaned = cleaned.strip().rstrip("`")
     try:
-        return json.loads(cleaned)
+        parsed = json.loads(cleaned)
+        if isinstance(parsed, dict):
+            return parsed
     except json.JSONDecodeError:
         pass
 
@@ -98,7 +102,7 @@ def run_extraction(model_config: dict, raw_text: str) -> dict:
     model_id = model_config["id"]
     user_prompt = USER_PROMPT_TEMPLATE.format(raw_text=raw_text)
 
-    start_time = time.time()
+    start_time = time.perf_counter()
     error = None
     extracted = None
     json_valid = False
@@ -126,7 +130,7 @@ def run_extraction(model_config: dict, raw_text: str) -> dict:
     except Exception as e:
         error = str(e)
 
-    elapsed = time.time() - start_time
+    elapsed = time.perf_counter() - start_time
 
     cost = (
         (input_tokens / 1_000_000) * model_config["input_cost_per_m"]
@@ -149,7 +153,7 @@ def run_extraction(model_config: dict, raw_text: str) -> dict:
 
 
 def main():
-    with open("data/job_postings.json") as f:
+    with open("data/job_postings.json", encoding="utf-8") as f:
         postings = json.load(f)
 
     print(f"Loaded {len(postings)} job postings")
@@ -184,7 +188,7 @@ def main():
         all_results.append(posting_results)
 
     output_path = RESULTS_DIR / "extraction_results.json"
-    with open(output_path, "w") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(all_results, f, indent=2)
 
     print(f"\n{'=' * 70}")
