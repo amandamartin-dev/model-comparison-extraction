@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "raw_text": "Senior Backend Engineer\nAcme Corp — San Francisco, CA (Hybrid)\n\nSalary: $180,000 - $220,000/yr\n\nWe're looking for an experienced backend engineer to join our platform team. You'll design and build APIs that serve millions of requests daily.\n\nRequirements:\n- 5+ years backend development experience\n- Proficiency in Go or Python\n- Experience with distributed systems\n- Strong understanding of SQL and NoSQL databases\n\nNice to have:\n- Kubernetes experience\n- Prior work at a startup\n\nBenefits: Health, dental, vision, 401k match, unlimited PTO",
+    "ground_truth": {
+      "title": "Senior Backend Engineer",
+      "company": "Acme Corp",
+      "location": "San Francisco, CA",
+      "work_model": "Hybrid",
+      "salary_min": 180000,
+      "salary_max": 220000,
+      "salary_currency": "USD",
+      "requirements": ["5+ years backend development experience", "Proficiency in Go or Python", "Experience with distributed systems", "Strong understanding of SQL and NoSQL databases"],
+      "nice_to_have": ["Kubernetes experience", "Prior work at a startup"],
+      "benefits": ["Health", "Dental", "Vision", "401k match", "Unlimited PTO"]
+    }
+  },
+  {
+    "id": 2,
+    "raw_text": "we're hiring!! ML Engineer at NeuroTech (remote, US only). competitive pay ($200-260k + equity). come build the future of AI inference. need: 3+ yrs ML eng, pytorch, transformers, gpu optimization. bonus if you've worked on LLM serving. hit us up at jobs@neurotech.ai",
+    "ground_truth": {
+      "title": "ML Engineer",
+      "company": "NeuroTech",
+      "location": "Remote",
+      "work_model": "Remote",
+      "salary_min": 200000,
+      "salary_max": 260000,
+      "salary_currency": "USD",
+      "requirements": ["3+ years ML engineering", "PyTorch", "Transformers", "GPU optimization"],
+      "nice_to_have": ["LLM serving experience"],
+      "benefits": ["Equity"]
+    }
+  },
+  {
+    "id": 3,
+    "raw_text": "Job Title: Data Analyst II\nCompany: MegaRetail Inc.\nDepartment: Business Intelligence\nLocation: Chicago, IL (On-site)\n\nPosition Summary:\nThe Data Analyst II will support the BI team in developing dashboards, reports, and ad-hoc analyses to support business decisions across merchandising and supply chain.\n\nMinimum Qualifications:\n• Bachelor's degree in Statistics, Mathematics, Computer Science or related field\n• 2-4 years of experience in a data analysis role\n• Advanced SQL skills\n• Experience with Tableau or Power BI\n• Proficiency in Excel including pivot tables and VLOOKUP\n\nPreferred Qualifications:\n• Master's degree\n• Python or R experience\n• Experience in retail analytics\n\nCompensation: $85,000 - $105,000 annually\nBenefits Package: Medical/Dental/Vision, 3 weeks PTO, 401(k) with 4% match, employee discount",
+    "ground_truth": {
+      "title": "Data Analyst II",
+      "company": "MegaRetail Inc.",
+      "location": "Chicago, IL",
+      "work_model": "On-site",
+      "salary_min": 85000,
+      "salary_max": 105000,
+      "salary_currency": "USD",
+      "requirements": ["Bachelor's degree in Statistics, Mathematics, Computer Science or related field", "2-4 years data analysis experience", "Advanced SQL skills", "Tableau or Power BI experience", "Excel proficiency including pivot tables and VLOOKUP"],
+      "nice_to_have": ["Master's degree", "Python or R experience", "Retail analytics experience"],
+      "benefits": ["Medical", "Dental", "Vision", "3 weeks PTO", "401(k) with 4% match", "Employee discount"]
+    }
+  },
+  {
+    "id": 4,
+    "raw_text": "Frontend Developer wanted for early-stage startup (Series A). React/TypeScript. NYC or remote. DM for details.",
+    "ground_truth": {
+      "title": "Frontend Developer",
+      "company": null,
+      "location": "NYC or Remote",
+      "work_model": "Remote",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "requirements": ["React", "TypeScript"],
+      "nice_to_have": [],
+      "benefits": []
+    }
+  },
+  {
+    "id": 5,
+    "raw_text": "URGENT HIRE: DevOps/SRE Lead\n\nAbout CloudScale Systems:\nWe're a fast-growing cloud infrastructure company (200+ employees) serving Fortune 500 clients. Our platform processes 10B+ events daily.\n\nRole: DevOps/SRE Lead\nReports to: VP of Engineering\nComp: $175K-$210K base + 15-20% bonus + RSUs\nLocation: Austin, TX (hybrid - 2 days in office)\n\nWhat you'll do:\n- Lead a team of 4 SREs\n- Own our Kubernetes infrastructure across 3 cloud providers\n- Design and implement CI/CD pipelines\n- Drive reliability improvements (target: 99.99% uptime)\n- Manage on-call rotations and incident response\n\nMust have:\n- 7+ years in DevOps/SRE\n- Strong Kubernetes expertise (CKA preferred)\n- Terraform, Ansible, or Pulumi\n- Experience managing a team\n- On-call experience\n\nPerks: Full benefits, $5K learning budget, home office stipend, sabbatical after 4 years",
+    "ground_truth": {
+      "title": "DevOps/SRE Lead",
+      "company": "CloudScale Systems",
+      "location": "Austin, TX",
+      "work_model": "Hybrid",
+      "salary_min": 175000,
+      "salary_max": 210000,
+      "salary_currency": "USD",
+      "requirements": ["7+ years in DevOps/SRE", "Strong Kubernetes expertise", "Terraform, Ansible, or Pulumi", "Team management experience", "On-call experience"],
+      "nice_to_have": ["CKA certification"],
+      "benefits": ["Full benefits", "15-20% bonus", "RSUs", "$5K learning budget", "Home office stipend", "Sabbatical after 4 years"]
+    }
+  },
+  {
+    "id": 6,
+    "raw_text": "Product Designer\nWonderful Widgets Co.\n\nJoin our design team! We need a product designer who can take features from concept to pixel-perfect implementation.\n\nYou should have:\n- 3+ years product design experience\n- Figma expertise\n- Experience with design systems\n- User research skills\n\nWe offer a great salary and benefits. Located in Portland, OR but open to remote candidates in US time zones.\n\nApply at wonderfulwidgets.com/careers",
+    "ground_truth": {
+      "title": "Product Designer",
+      "company": "Wonderful Widgets Co.",
+      "location": "Portland, OR",
+      "work_model": "Remote",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "requirements": ["3+ years product design experience", "Figma expertise", "Design systems experience", "User research skills"],
+      "nice_to_have": [],
+      "benefits": []
+    }
+  },
+  {
+    "id": 7,
+    "raw_text": "iOS Developer — Contract (6 months, potential conversion)\nPayRate: $85-95/hr W2\nClient: Major Healthcare Company (NDA)\nLocation: 100% Remote\n\nSeeking an experienced iOS developer for a patient-facing mobile app rebuild. Swift/SwiftUI required. Must have healthcare or HIPAA experience. Background check required.\n\nSubmit resume to recruiter@techstaffing.com",
+    "ground_truth": {
+      "title": "iOS Developer",
+      "company": null,
+      "location": "Remote",
+      "work_model": "Remote",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "requirements": ["Swift", "SwiftUI", "Healthcare or HIPAA experience", "Background check"],
+      "nice_to_have": [],
+      "benefits": []
+    }
+  },
+  {
+    "id": 8,
+    "raw_text": "About the job\n\nStaff Software Engineer, Payments\n\nStripe | San Francisco, Seattle, or New York\n\nAt Stripe, we build economic infrastructure for the internet. Our payments team handles hundreds of billions of dollars annually.\n\nWhat you'll do:\n- Architect and build payment processing systems at massive scale\n- Mentor senior engineers and set technical direction for the team\n- Collaborate with product, design, and business teams to define strategy\n- Improve system reliability from 99.99% to 99.999%\n\nWho you are:\n- 8+ years of software engineering experience\n- Deep expertise in distributed systems\n- Experience with payment systems, financial infrastructure, or similar regulated domains\n- Track record of technical leadership without formal management\n- Strong communication skills\n\nCompensation range: $250,000 - $350,000 (base) + equity + benefits\n\nStripe offers: Premium health coverage, retirement plan with match, generous parental leave, annual learning & development stipend, wellness reimbursement",
+    "ground_truth": {
+      "title": "Staff Software Engineer, Payments",
+      "company": "Stripe",
+      "location": "San Francisco, Seattle, or New York",
+      "work_model": "On-site",
+      "salary_min": 250000,
+      "salary_max": 350000,
+      "salary_currency": "USD",
+      "requirements": ["8+ years software engineering experience", "Deep expertise in distributed systems", "Payment systems or financial infrastructure experience", "Technical leadership track record", "Strong communication skills"],
+      "nice_to_have": [],
+      "benefits": ["Premium health coverage", "Retirement plan with match", "Generous parental leave", "Learning & development stipend", "Wellness reimbursement", "Equity"]
+    }
+  },
+  {
+    "id": 9,
+    "raw_text": "Jr. QA Tester\nBugFree Software, Raleigh NC\n$55k-65k DOE\nIn-office M-F\n\nLooking for someone detail-oriented to join our QA team. Manual testing mostly, some automation. Selenium a plus. Recent grads welcome! Good communication skills needed. Email hr@bugfreesw.com",
+    "ground_truth": {
+      "title": "Junior QA Tester",
+      "company": "BugFree Software",
+      "location": "Raleigh, NC",
+      "work_model": "On-site",
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "salary_currency": "USD",
+      "requirements": ["Detail-oriented", "Manual testing", "Good communication skills"],
+      "nice_to_have": ["Selenium", "Automation experience"],
+      "benefits": []
+    }
+  },
+  {
+    "id": 10,
+    "raw_text": "🚀 We're building something big at Quantum AI Labs and need a Research Scientist to join the team! \n\nYou'll work on cutting-edge problems in reinforcement learning and multi-agent systems. PhD preferred but not required if you have strong publications.\n\nTC: $220K-$300K (depending on level) + meaningful equity in a pre-IPO company\n\n📍 Palo Alto, CA (3 days/wk in office)\n\nRequired:\n- MS or PhD in CS, ML, or related\n- Published research in top venues (NeurIPS, ICML, ICLR)\n- Strong Python + PyTorch\n- Experience training large models\n\nWe provide: top-tier comp, H100 cluster access, conference budget, relocation assistance\n\nDM me or apply at quantumai.co/careers 🧠",
+    "ground_truth": {
+      "title": "Research Scientist",
+      "company": "Quantum AI Labs",
+      "location": "Palo Alto, CA",
+      "work_model": "Hybrid",
+      "salary_min": 220000,
+      "salary_max": 300000,
+      "salary_currency": "USD",
+      "requirements": ["MS or PhD in CS, ML, or related field", "Published research in top venues", "Strong Python and PyTorch", "Experience training large models"],
+      "nice_to_have": [],
+      "benefits": ["Equity", "H100 cluster access", "Conference budget", "Relocation assistance"]
+    }
+  },
+  {
+    "id": 11,
+    "raw_text": "Technical Program Manager\n\nLocation: Remote (US & Canada)\nCompany: DataMesh\n\nDataMesh is a Series B data platform startup ($45M raised). We help enterprises unify their data across cloud providers.\n\nAbout the role:\nWe need a TPM to drive execution across our platform, infrastructure, and integrations teams. You'll own the release process, manage cross-team dependencies, and ensure we ship on time.\n\nWhat we need:\n- 5+ years as a TPM or similar role\n- Technical background (former engineer preferred)\n- Experience with agile/scrum at scale\n- Excellent stakeholder management skills\n- Experience with data infrastructure is a big plus\n\nSalary: CAD $140,000 - $170,000 for Canadian candidates\n        USD $150,000 - $185,000 for US candidates\n\nBenefits: Health, dental, vision | Stock options | Flexible hours | Home office budget | Annual retreat",
+    "ground_truth": {
+      "title": "Technical Program Manager",
+      "company": "DataMesh",
+      "location": "Remote",
+      "work_model": "Remote",
+      "salary_min": 150000,
+      "salary_max": 185000,
+      "salary_currency": "USD",
+      "requirements": ["5+ years as TPM or similar role", "Technical background", "Agile/scrum at scale experience", "Excellent stakeholder management skills"],
+      "nice_to_have": ["Former engineer", "Data infrastructure experience"],
+      "benefits": ["Health", "Dental", "Vision", "Stock options", "Flexible hours", "Home office budget", "Annual retreat"]
+    }
+  },
+  {
+    "id": 12,
+    "raw_text": "hiring a security engineer. fully remote. $160-190k. need someone who knows cloud security (AWS/GCP), has done pen testing, and understands compliance frameworks (SOC2, ISO 27001). must be US citizen due to client requirements. 4+ years exp. we're a 30-person cybersecurity consultancy. good vibes. apply: careers@cyberguard.io",
+    "ground_truth": {
+      "title": "Security Engineer",
+      "company": "CyberGuard",
+      "location": "Remote",
+      "work_model": "Remote",
+      "salary_min": 160000,
+      "salary_max": 190000,
+      "salary_currency": "USD",
+      "requirements": ["Cloud security (AWS/GCP)", "Penetration testing", "Compliance frameworks (SOC2, ISO 27001)", "US citizen", "4+ years experience"],
+      "nice_to_have": [],
+      "benefits": []
+    }
+  },
+  {
+    "id": 13,
+    "raw_text": "POSITION: Lead Android Developer\nCOMPANY: StreamMedia Entertainment\nLOCATION: Los Angeles, California\nTYPE: Full-Time\nSALARY RANGE: $155,000.00 - $195,000.00 per year\nDEPARTMENT: Mobile Engineering\n\nSUMMARY OF POSITION:\nThe Lead Android Developer will be responsible for architecting and developing our flagship streaming application used by 5M+ subscribers. The ideal candidate has deep Android expertise and experience leading a team of mobile developers.\n\nESSENTIAL DUTIES AND RESPONSIBILITIES:\n1. Lead a team of 5 Android developers\n2. Architect the next generation of our Android application using Kotlin and Jetpack Compose\n3. Ensure app performance, quality, and responsiveness\n4. Collaborate with iOS team to maintain feature parity\n5. Participate in code reviews and mentor junior developers\n\nMINIMUM QUALIFICATIONS:\n- Bachelor's degree in Computer Science or equivalent experience\n- 6+ years of Android development\n- Expert knowledge of Kotlin\n- Experience with Jetpack Compose\n- Team leadership experience\n- Published apps on Google Play Store\n\nPREFERRED QUALIFICATIONS:\n- Experience with video streaming/media playback (ExoPlayer)\n- DRM implementation experience\n- Cross-platform development exposure (KMP)\n\nBENEFITS:\n- Comprehensive health insurance\n- Free streaming subscription\n- 4 weeks PTO + holidays\n- Annual bonus (10-15%)\n- Professional development budget\n- Gym membership reimbursement",
+    "ground_truth": {
+      "title": "Lead Android Developer",
+      "company": "StreamMedia Entertainment",
+      "location": "Los Angeles, CA",
+      "work_model": "On-site",
+      "salary_min": 155000,
+      "salary_max": 195000,
+      "salary_currency": "USD",
+      "requirements": ["Bachelor's degree in CS or equivalent", "6+ years Android development", "Expert Kotlin knowledge", "Jetpack Compose experience", "Team leadership experience", "Published apps on Google Play Store"],
+      "nice_to_have": ["Video streaming/media playback experience", "DRM implementation experience", "Cross-platform development (KMP)"],
+      "benefits": ["Comprehensive health insurance", "Free streaming subscription", "4 weeks PTO + holidays", "Annual bonus 10-15%", "Professional development budget", "Gym membership reimbursement"]
+    }
+  },
+  {
+    "id": 14,
+    "raw_text": "Looking for a part-time bookkeeper. Small accounting firm in Denver. QuickBooks experience required. $25-35/hr. Flexible schedule, about 20 hrs/week. Contact Lisa at lisa@denveraccounting.com",
+    "ground_truth": {
+      "title": "Bookkeeper",
+      "company": "Denver Accounting",
+      "location": "Denver, CO",
+      "work_model": "On-site",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "requirements": ["QuickBooks experience"],
+      "nice_to_have": [],
+      "benefits": ["Flexible schedule"]
+    }
+  },
+  {
+    "id": 15,
+    "raw_text": "Platform Engineer — Observability\n\nGrafana Labs (Remote, EMEA timezone preferred)\n\n€90.000 - €130.000 + equity\n\nWe're looking for a Platform Engineer to join our internal infrastructure team. You'll build and maintain the observability stack that our 800+ engineers rely on.\n\nYou'll work with: Grafana (obviously!), Prometheus, Loki, Tempo, Mimir, Kubernetes, Go\n\nRequirements:\n- 4+ years in platform/infrastructure engineering\n- Deep Kubernetes experience\n- Proficiency in Go\n- Experience operating monitoring systems at scale\n- Strong Linux fundamentals\n\nNice to have:\n- Contributions to open source observability projects\n- Experience with OpenTelemetry\n- Previous remote work experience\n\nWe offer: async-first culture, equipment budget, co-working stipend, learning budget, 25 days PTO",
+    "ground_truth": {
+      "title": "Platform Engineer — Observability",
+      "company": "Grafana Labs",
+      "location": "Remote",
+      "work_model": "Remote",
+      "salary_min": 90000,
+      "salary_max": 130000,
+      "salary_currency": "EUR",
+      "requirements": ["4+ years platform/infrastructure engineering", "Deep Kubernetes experience", "Proficiency in Go", "Operating monitoring systems at scale", "Strong Linux fundamentals"],
+      "nice_to_have": ["Open source observability contributions", "OpenTelemetry experience", "Previous remote work experience"],
+      "benefits": ["Equity", "Async-first culture", "Equipment budget", "Co-working stipend", "Learning budget", "25 days PTO"]
+    }
+  },
+  {
+    "id": 16,
+    "raw_text": "We need a Fullstack Engineer who can handle both the frontend and backend. Our stack is Next.js, TypeScript, PostgreSQL, and we deploy on Vercel + Railway. Seed-stage startup in the legal tech space. Comp is $130-160k + 0.5-1.0% equity. Based in NYC but fully remote OK. Must be comfortable with ambiguity — we're only 8 people and you'll wear many hats. Apply: founders@legalflow.ai",
+    "ground_truth": {
+      "title": "Fullstack Engineer",
+      "company": "LegalFlow",
+      "location": "NYC",
+      "work_model": "Remote",
+      "salary_min": 130000,
+      "salary_max": 160000,
+      "salary_currency": "USD",
+      "requirements": ["Next.js", "TypeScript", "PostgreSQL", "Comfortable with ambiguity"],
+      "nice_to_have": [],
+      "benefits": ["0.5-1.0% equity"]
+    }
+  },
+  {
+    "id": 17,
+    "raw_text": "MARKETING COORDINATOR\n\nBrightPath Education | Boston, MA | In-Office\n\nBrightPath Education is an ed-tech company helping K-12 schools adopt personalized learning.\n\nWe're looking for a Marketing Coordinator to support our demand gen and content marketing efforts.\n\nResponsibilities include managing social media, coordinating email campaigns, helping with events, and supporting the marketing team with various projects.\n\nLooking for:\n- 1-2 years marketing experience\n- Strong writing skills\n- Experience with HubSpot or similar\n- Detail-oriented and organized\n- Bonus: education industry experience\n\nPay: $52,000 - $62,000\nBenefits: Health insurance, education reimbursement, summer Fridays",
+    "ground_truth": {
+      "title": "Marketing Coordinator",
+      "company": "BrightPath Education",
+      "location": "Boston, MA",
+      "work_model": "On-site",
+      "salary_min": 52000,
+      "salary_max": 62000,
+      "salary_currency": "USD",
+      "requirements": ["1-2 years marketing experience", "Strong writing skills", "HubSpot or similar experience", "Detail-oriented and organized"],
+      "nice_to_have": ["Education industry experience"],
+      "benefits": ["Health insurance", "Education reimbursement", "Summer Fridays"]
+    }
+  },
+  {
+    "id": 18,
+    "raw_text": "Come work with us!\n\nSenior Data Engineer\n\nRocketship Analytics is a YC-backed (W24) startup building the next generation of real-time analytics for e-commerce. We raised $12M Series A.\n\nTech stack: Kafka, Flink, ClickHouse, dbt, Python, Terraform\n\nWhat we need:\nSomeone who has built and operated data pipelines at scale. You should be comfortable with streaming architectures and batch processing. Experience with data modeling and warehouse design is essential.\n\nRequirements:\n- 5+ years data engineering\n- Strong SQL and Python\n- Experience with streaming (Kafka/Flink/Spark Streaming)\n- Data warehouse design (ClickHouse, BigQuery, Snowflake, etc)\n- Infrastructure as code\n\nComp: $170-210k + equity\nLocation: SF preferred, remote considered for exceptional candidates\nBenefits: Full medical/dental/vision, commuter benefits, weekly team lunch, annual offsite",
+    "ground_truth": {
+      "title": "Senior Data Engineer",
+      "company": "Rocketship Analytics",
+      "location": "San Francisco",
+      "work_model": "Hybrid",
+      "salary_min": 170000,
+      "salary_max": 210000,
+      "salary_currency": "USD",
+      "requirements": ["5+ years data engineering", "Strong SQL and Python", "Streaming experience (Kafka/Flink/Spark Streaming)", "Data warehouse design", "Infrastructure as code"],
+      "nice_to_have": [],
+      "benefits": ["Full medical/dental/vision", "Equity", "Commuter benefits", "Weekly team lunch", "Annual offsite"]
+    }
+  },
+  {
+    "id": 19,
+    "raw_text": "Customer Success Manager\nSaaSly | Remote, EST hours | $90K-$110K OTE (70/30 split)\n\nManage a portfolio of 40-50 mid-market accounts. Drive adoption, retention, and expansion. You'll own the full post-sales lifecycle from onboarding to renewal.\n\nNeeds: 3+ yrs CSM experience, SaaS background, strong with data (comfortable in Looker/Tableau), excellent communication. Gainsight experience preferred.\n\nBenefits: health/dental/vision, 401k, unlimited PTO (we actually use it), annual learning stipend",
+    "ground_truth": {
+      "title": "Customer Success Manager",
+      "company": "SaaSly",
+      "location": "Remote",
+      "work_model": "Remote",
+      "salary_min": 90000,
+      "salary_max": 110000,
+      "salary_currency": "USD",
+      "requirements": ["3+ years CSM experience", "SaaS background", "Data proficiency (Looker/Tableau)", "Excellent communication"],
+      "nice_to_have": ["Gainsight experience"],
+      "benefits": ["Health", "Dental", "Vision", "401k", "Unlimited PTO", "Annual learning stipend"]
+    }
+  },
+  {
+    "id": 20,
+    "raw_text": "Embedded Systems Engineer\nAeroSense Robotics | Boulder, CO (On-site required — hardware lab access needed)\n\nWe build autonomous drones for agricultural monitoring. Our engineering team is 15 people.\n\nLooking for an embedded engineer to work on flight controller firmware and sensor integration.\n\nMust have:\n• C/C++ on bare metal and RTOS (FreeRTOS preferred)\n• Experience with ARM Cortex-M processors\n• Hardware debugging (oscilloscope, logic analyzer, JTAG)\n• Understanding of control systems and signal processing\n• US Person status required (ITAR)\n\nNice to have:\n• Drone/UAV industry experience\n• ROS2 familiarity\n• PCB design basics\n\nPay: $120,000 - $150,000 + equity\nBenefits: Health, dental, vision, outdoor recreation stipend, dog-friendly office",
+    "ground_truth": {
+      "title": "Embedded Systems Engineer",
+      "company": "AeroSense Robotics",
+      "location": "Boulder, CO",
+      "work_model": "On-site",
+      "salary_min": 120000,
+      "salary_max": 150000,
+      "salary_currency": "USD",
+      "requirements": ["C/C++ on bare metal and RTOS", "ARM Cortex-M processor experience", "Hardware debugging", "Control systems and signal processing understanding", "US Person status (ITAR)"],
+      "nice_to_have": ["Drone/UAV industry experience", "ROS2 familiarity", "PCB design basics"],
+      "benefits": ["Health", "Dental", "Vision", "Equity", "Outdoor recreation stipend", "Dog-friendly office"]
+    }
+  },
+  {
+    "id": 21,
+    "raw_text": "Recrutamos Desenvolvedor Python Sênior | TechBridge Solutions\n\nLocalização: São Paulo, SP (Remoto aceito para candidatos no Brasil)\nSalário: R$18.000 - R$25.000/mês CLT\n\nRequisitos:\n- 5+ anos com Python\n- Django ou FastAPI\n- PostgreSQL\n- Docker & CI/CD\n- Inglês intermediário\n\nDiferenciais: AWS, microserviços, GraphQL\n\nBenefícios: VR, VT, plano de saúde, PLR, horário flexível\n\nCandidatar-se: vagas@techbridge.com.br",
+    "ground_truth": {
+      "title": "Senior Python Developer",
+      "company": "TechBridge Solutions",
+      "location": "São Paulo, SP, Brazil",
+      "work_model": "Remote",
+      "salary_min": 18000,
+      "salary_max": 25000,
+      "salary_currency": "BRL",
+      "requirements": ["5+ years Python", "Django or FastAPI", "PostgreSQL", "Docker & CI/CD", "Intermediate English"],
+      "nice_to_have": ["AWS", "Microservices", "GraphQL"],
+      "benefits": ["Meal voucher", "Transport voucher", "Health plan", "Profit sharing", "Flexible hours"]
+    }
+  },
+  {
+    "id": 22,
+    "raw_text": "MACHINE LEARNING INFRASTRUCTURE ENGINEER\n\nCompany Confidential — Top 10 Tech Company\n\nLevel: Senior/Staff (L5-L6 equivalent)\nComp: $280K-$400K total (base + bonus + RSUs)\nLocations: Menlo Park, CA | Seattle, WA | NYC\n\nWe're looking for an ML Infrastructure Engineer to build the platform that trains and serves our foundation models. You'll work at the intersection of distributed systems and machine learning.\n\nYou bring:\n- MS/PhD in CS or related field, or equivalent experience\n- 5+ years building ML infrastructure\n- Expert in at least one: PyTorch internals, CUDA, distributed training (FSDP/DeepSpeed/Megatron)\n- Experience with large-scale GPU clusters (1000+ GPUs)\n- Systems programming skills (C++, Rust, or Go)\n- Published work or patents in ML systems is a plus\n\nThis is a high-impact role with direct visibility to leadership.",
+    "ground_truth": {
+      "title": "Machine Learning Infrastructure Engineer",
+      "company": null,
+      "location": "Menlo Park, CA; Seattle, WA; or NYC",
+      "work_model": "On-site",
+      "salary_min": 280000,
+      "salary_max": 400000,
+      "salary_currency": "USD",
+      "requirements": ["MS/PhD in CS or equivalent experience", "5+ years building ML infrastructure", "Expert in PyTorch internals, CUDA, or distributed training", "Large-scale GPU cluster experience (1000+ GPUs)", "Systems programming (C++, Rust, or Go)"],
+      "nice_to_have": ["Published work or patents in ML systems"],
+      "benefits": []
+    }
+  },
+  {
+    "id": 23,
+    "raw_text": "Technical Writer\n\nDocuStream | Remote (US/EU)\n\nWe make developer documentation tools. Now we need someone to eat our own dog food and create amazing docs for our product.\n\n$95K - $120K depending on location and experience\n\nWhat you'll do:\n- Write and maintain API documentation\n- Create getting-started guides and tutorials\n- Work with engineers to document new features\n- Maintain our docs-as-code pipeline\n\nYou should have:\n- 3+ years technical writing experience\n- Ability to read code (Python, JavaScript)\n- Experience with docs-as-code workflows (Git, Markdown, static site generators)\n- API documentation experience\n\nBonus points for: developer community experience, open source contributions, prior engineering background\n\nPerks: Fully remote, flexible hours, book budget, conference attendance, home office setup stipend",
+    "ground_truth": {
+      "title": "Technical Writer",
+      "company": "DocuStream",
+      "location": "Remote",
+      "work_model": "Remote",
+      "salary_min": 95000,
+      "salary_max": 120000,
+      "salary_currency": "USD",
+      "requirements": ["3+ years technical writing", "Ability to read code (Python, JavaScript)", "Docs-as-code workflows (Git, Markdown, static site generators)", "API documentation experience"],
+      "nice_to_have": ["Developer community experience", "Open source contributions", "Prior engineering background"],
+      "benefits": ["Fully remote", "Flexible hours", "Book budget", "Conference attendance", "Home office setup stipend"]
+    }
+  },
+  {
+    "id": 24,
+    "raw_text": "Founding Engineer\n\nStealth AI Startup (backed by a]6z, Sequoia)\n\nWe're building something at the intersection of AI agents and developer tools. Can't say more yet, but if you want to be employee #3 at a company that will change how software gets built, let's talk.\n\n$150-200k + significant equity (1-2%)\nSF Bay Area (in-person, we move fast)\n\nLooking for: generalist engineer, 4+ years exp, strong systems skills, startup DNA, comfortable shipping fast in ambiguous environments. AI/ML interest preferred but not required.\n\nReach out: founder@[redacted].com",
+    "ground_truth": {
+      "title": "Founding Engineer",
+      "company": null,
+      "location": "SF Bay Area",
+      "work_model": "On-site",
+      "salary_min": 150000,
+      "salary_max": 200000,
+      "salary_currency": "USD",
+      "requirements": ["Generalist engineer", "4+ years experience", "Strong systems skills", "Comfortable shipping fast in ambiguous environments"],
+      "nice_to_have": ["AI/ML interest"],
+      "benefits": ["1-2% equity"]
+    }
+  },
+  {
+    "id": 25,
+    "raw_text": "Intern - Software Engineering (Summer 2026)\n\nBigTech Corp | Multiple US Locations + Remote Option\n\nJoin us for a 12-week summer internship! You'll work on real projects alongside experienced engineers.\n\nWe're looking for students currently pursuing a BS, MS, or PhD in Computer Science or related fields who will graduate in 2027.\n\nRequirements:\n- Currently enrolled in a CS degree program\n- Graduating in 2027\n- Strong coding skills in at least one language\n- Available for 12 weeks (June-August 2026)\n\nPay: $45-55/hr depending on degree level + housing stipend\nPerks: Relocation assistance, mentorship program, intern events, potential return offer",
+    "ground_truth": {
+      "title": "Software Engineering Intern",
+      "company": "BigTech Corp",
+      "location": "Multiple US Locations or Remote",
+      "work_model": "Hybrid",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "requirements": ["Currently enrolled in CS degree program", "Graduating in 2027", "Strong coding skills in at least one language", "Available 12 weeks June-August 2026"],
+      "nice_to_have": [],
+      "benefits": ["Housing stipend", "Relocation assistance", "Mentorship program", "Intern events", "Potential return offer"]
+    }
+  }
+]
