@@ -1,6 +1,6 @@
 # model-comparison-extraction
 
-This repo is a companion to this blog.  It is intended for education and exploration and is not considered production ready. 
+This repo is a companion to [this blog](https://dev.to/amandamartindev/choosing-a-model-means-measuring-cost-vs-quality-on-your-data-1e58).  It is intended for education and exploration and is not considered production ready. 
 
 A minimal Python project for comparing Baseten-hosted LLMs on structured job posting extraction.
 
